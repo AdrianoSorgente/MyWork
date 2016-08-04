@@ -1,0 +1,246 @@
+td.tabs-menu-header {
+	vertical-align: middle;
+	/*height: 16px;*/
+	background-color: #CCCC99;
+}
+
+td.tabs-menu-footer {
+	vertical-align: top;
+	height: 16px;
+	background-color: #CCCC99;
+}
+
+.tabs-menu-header {}
+.tabs-menu-header .tabs-menu-menuBar {}
+.tabs-menu-header .tabs-menu-menuBar select {}
+.tabs-menu-header .tabs-menu-menuBar .tabs-menu-select-type-0 { background-color: #ffffff; }
+.tabs-menu-header .tabs-menu-menuBar .tabs-menu-select-type-1 { background-color: #f7f7e7; }
+.tabs-menu-header .tabs-menu-menuBar .tabs-menu-select-sox-262 { color: #0077FF}
+
+td.tabs-menu-header .tabs-menu-menuBar {
+	width: 100%;
+	height: 26px;
+	font-size: 11px;
+	border-collapse: collapse;
+}
+
+.tabs-menu-menuBar .tabs-menu-button {
+	border-collapse: collapse;
+	float: right;
+}
+
+.tabs-menu-menuBar .tabs-menu-button a {
+	display: block;
+	margin: 1px 0;
+	padding: 0;
+	border: 1px solid #CCCC99;
+}
+
+.tabs-menu-menuBar .tabs-menu-button a:hover {
+	background-color: #dbdb9c;
+	border: 1px solid #f0f0c9; 
+}
+
+.tabs-menu-menuBar .tabs-menu-button .tabs-menu-link-disable {
+	opacity: .5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+}
+
+.tabs-menu-menuBar .tabs-menu-button .tabs-menu-link-disable a:link, 
+.tabs-menu-menuBar .tabs-menu-button .tabs-menu-link-disable a:visited,
+.tabs-menu-menuBar .tabs-menu-button .tabs-menu-link-disable a:hover,
+.tabs-menu-menuBar .tabs-menu-button .tabs-menu-link-disable a:active { 
+	background-color: #CCCC99;
+	border: 1px solid #CCCC99;
+}
+
+.tabs-menu-menuBar .tabs-menu-button .tabs-menu-link-disable a img { background-color: #CCCC99; cursor: auto; }
+.tabs-menu-menuBar .tabs-menu-button a img {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	cursor: pointer;
+	border-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tabs-menu-menuBar .tabs-menu-button td {
+	margin: 0 auto;
+	padding: 0 1px;
+}
+
+.tabs-menu-menuBar .tabs-menu-button a.tabs-menu-separator {
+	margin: 0;
+	padding: 0;
+}
+
+.tabs-menu-menuBar .tabs-menu-button a.tabs-menu-separator:hover {
+	background-color: CCCC99;
+	border: 1px solid #CCCC99;
+}
+
+.tabs-menu-menuBar .tabs-menu-button a.tabs-menu-separator img {
+	width: 1px;
+	height: 16px;
+	cursor: auto;
+}
+
+.tabs-menu-container {
+	font-family: arial, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: none;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	/*position: relative;*/
+	margin: auto 0;
+	padding: 0;
+	/* 	border: 1px solid #AAAAAA; */
+	
+}
+
+.tabs-menu-container .tabs-menu-nav {
+/* 	position: fixed; */
+/* 	right: 9px; */
+	width: 160px;
+	height: 100%;
+	float: right;
+	margin: auto 0;
+	padding: 0;
+/*	position: relative; */
+/* 	background-color: #F7F7E7; */
+	background-color: #CCCC99;
+/*	border-bottom: 1px solid #8A8F05;*/
+	border-left: 1px solid #8A8F05;
+	z-index: 10; 
+	
+}
+
+.tabs-menu-container .tabs-menu-nav li {
+	width: 135px;
+	height: 1.5em;
+	list-style-type: none;
+	background-color: #F7F7F7;
+/* 	background-color: #CCCC99; */
+	margin: 0.2em 0 1px 1px;
+	padding: 0;
+	right: 1px;
+	display: block;
+	position: relative;
+	display: block;
+	border: 1px solid #8A8F05;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: none;	
+	opacity: .3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+}
+
+.tabs-menu-container .tabs-menu-nav li a {
+	padding: 0.1em;
+	display: block;
+/*	position: relative; */
+	color: #000;
+/* 	color: #336699; */
+    font-family: Arial;
+    font-size: 12px;
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+.tabs-menu-container div.tabs-menu-panel {
+	margin-right: 160px; /* float: left;*/
+	background-color: #ffffff;
+/*	position: relative; */
+/* 	z-index: -10;  */
+	height: 100%;
+	
+}
+
+div.tabs-menu-panel .tabs-menu-content {
+	margin: 0;
+	padding: 1em 1em 0 0;
+}
+
+.tabs-menu-container .tabs-menu-nav li.tabs-menu-active {
+	border: 1px solid #8A8F05;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 0 none !important;
+	margin-left: 0;
+    padding-left: 1px;
+	z-index: 20;
+	background-color: #ffffff !important;
+	position: relative;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+.tabs-menu-container .tabs-menu-nav li.tabs-menu-active a,.tabs-menu-container .tabs-menu-nav li.tabs-menu-active a:link,.tabs-menu-container .tabs-menu-nav li.tabs-menu-active a:visited {
+/* 	font-weight: bold; */
+/* 	color: #336699; */
+	color: #000;
+}
+
+.tabs-menu-container .tabs-menu-nav li.tabs-menu-hover:hover {
+	opacity: .6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+}
+
+.tabs-menu-container .tabs-menu-nav li.tabs-menu-hover a:hover {
+/* 	color: #336699; */
+}
+
+.div-menu-legenda {
+     position:absolute; /* can also be 'fixed' */
+     top:45%; left:45%;
+     width:250px;  
+     margin:-100px 0 0 -50px;
+     z-index:99;
+     border-style: double;
+	 /*background-color: transparent;*/
+}
+
+.div-menu-legenda .menu-legenda-header { margin-top: 3px; margin-bottom: 3px; }
+.div-menu-legenda .menu-legenda-header div { background-color: #f7f7e7; }
+.div-menu-legenda .menu-legenda-header div img { vertical-align: middle; }
+.div-menu-legenda .menu-legenda-content { clear: both; }
+.div-menu-legenda .menu-legenda-content table tr { padding-top: 3px; }
+
+.div-menu-cover {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	z-index: 98;
+	background-color: black;     
+	opacity: .35;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=35); 
+}
+
+.tabs-menu-cover {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	z-index: 98;
+	background-color: black;     
+	opacity: .35;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=35); 
+}
